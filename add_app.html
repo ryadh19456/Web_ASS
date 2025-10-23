@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="myFunctions.js"></script>
+<title>Add Application</title>
+</head>
+<body>
+<nav>
+    <a href="home.html" >الرئيسية</a>
+    <a href="apps.html">التطبيقات</a>
+    <a href="add_app.html">اضافة تطبيق</a>
+    <a href="aboutus.html">من نحن</a>
+</nav>
+<h1>اضافة تطبيق</h1>
+
+<form id="appForm">
+  <label>اسم التطبيق:</label>
+  <input type="text" id="appName">
+  <div id="nameError" class="error"></div>
+
+  <label>الشركة المصنعة:</label>
+  <input type="text" id="manufacturer">
+  <div id="manError" class="error"></div>
+
+  <label>الموقع الإلكتروني :</label>
+  <input type="url" id="website">
+  <div id="urlError" class="error"></div>
+
+  <label>هل هو مجاني؟</label>
+  <input type="radio" name="free" value="نعم"> نعم
+  <input type="radio" name="free" value="لا"> لا
+
+  <label>مجال الاستخدام:</label>
+  <select id="category">
+    <option value="">--اختر--</option>
+    <option>المساعدة الشخصية</option>
+    <option>إنشاء الصور</option>
+    <option>التدقيق اللغوي</option>
+  </select>
+
+  <label>وصف قصير:</label>
+  <textarea id="description"></textarea>
+
+  <br>
+  <button type="submit" id="submit">إرسال</button>
+  <button type="reset" id="reset">إعادة تعيين</button>
+</form>
+</body>
+</html>

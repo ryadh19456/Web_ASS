@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيقات الذكاء الاصطناعي</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="myFunctions.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="home.html">الرئيسية</a>
+        <a href="apps.html">التطبيقات</a>
+        <a href="add_app.html">اضافة تطبيق</a>
+        <a href="aboutus.html">من نحن</a>
+    </nav>
+    <main>
+        <h2>أشهر تطبيقات الذكاء الاصطناعي</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم التطبيق</th>
+                    <th>اسم الشركة المطورة</th>
+                    <th>مجال الاستخدام</th>
+                    <th>مجاني</th>
+                    <th>إظهار التفاصيل</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- تطبيق 1 -->
+                <tr>
+                    <td>ChatGPT</td>
+                    <td>OpenAI</td>
+                    <td>المساعدة الشخصية</td>
+                    <td>نعم</td>
+                    <td><input type="checkbox" class="details-toggle" onclick="toggleDetails(1)"></td>
+                </tr>
+                <tr id="details-1" style="display: none;">
+                    <td colspan="5">
+                        <div class="app-details">
+                            <div class="detail-item">
+                                <strong>عنوان الموقع الالكتروني:</strong>
+                                <a href=https://chat.openai.com target="_blank">chat.openai.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>شرح مختصر:</strong>
+                                <p>ChatGPT هو روبوت محادثة يعتمد على الذكاء الاصطناعي يمكنه الإجابة على الأسئلة
+                                    والمساعدة في كتابة النصوص وحل المشكلات المختلفة.</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Logo</strong><br>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdM9MEQ0ExL1PmInT3U5I8v63YXBEdoIT0Q&s"
+                                    alt="chatGPT logo" width="120" height="120">
+                            </div>
+                            <div class="detail-item">
+                                <strong>ملف فيديو:</strong><br>
+                                <iframe src="https://www.youtube.com/embed/9wxmlwRaZHc" width="300" height="250">
+                                    المتصفح لا يدعم تشغيل ملفات الفيديو
+                                </iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- تطبيق 2 -->
+                <tr>
+                    <td>Midjourney</td>
+                    <td>Midjourney, Inc.</td>
+                    <td>إنشاء الصور</td>
+                    <td>لا</td>
+                    <td><input type="checkbox" class="details-toggle" onclick="toggleDetails(2)"></td>
+                </tr>
+                <tr id="details-2" style="display: none;">
+                    <td colspan="5">
+                        <div class="app-details">
+                            <div class="detail-item">
+                                <strong>عنوان الموقع الالكتروني:</strong>
+                                <a href="https://www.midjourney.com" target="_blank">www.midjourney.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>شرح مختصر:</strong>
+                                <p>Midjourney هو تطبيق ذكاء اصطناعي لإنشاء الصور من النصوص المكتوبة، يمكنه إنشاء صور
+                                    فنية واقعية بناءً على أوصاف نصية.</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Logo</strong><br>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr4opS-VWM8zxQyTEaFuF32lTYqO6i-DQ3fQ&s"
+                                    alt=" Midjourney" width="120" height="120">
+                            </div>
+                            <div class="detail-item">
+                                <strong>ملف فيديو:</strong><br>
+                                <iframe src="https://www.youtube.com/embed/yQmpqHobyvw" width="300" height="250">
+                                    المتصفح لا يدعم تشغيل ملفات الفيديو
+                                </iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- تطبيق 3 -->
+                <tr>
+                    <td>Grammarly</td>
+                    <td>Grammarly, Inc.</td>
+                    <td>التدقيق اللغوي</td>
+                    <td>نعم</td>
+                    <td><input type="checkbox" class="details-toggle" onclick="toggleDetails(3)"></td>
+                </tr>
+                <tr id="details-3" style="display: none;">
+                    <td colspan="5">
+                        <div class="app-details">
+                            <div class="detail-item">
+                                <strong>عنوان الموقع الالكتروني:</strong>
+                                <a href="https://www.grammarly.com" target="_blank">www.grammarly.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>شرح مختصر:</strong>
+                                <p>Grammarly هو أداة تدقيق نحوي وإملائي تعتمد على الذكاء الاصطناعي لتحسين جودة الكتابة
+                                    باللغة الإنجليزية وتصحيح الأخطاء.</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Logo</strong><br>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cTBhQsKb1392huu7YZzPfEkXKPwZZHlSNQ&s"
+                                    alt="Grammarly" width="120" height="120">
+                            </div>
+                            <div class="detail-item">
+                                <strong>ملف فيديو:</strong><br>
+                                <iframe src="https://www.youtube.com/embed/W2P7eixJOgc" width="300" height="250">
+                                    المتصفح لا يدعم تشغيل ملفات الفيديو
+                                </iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- تطبيق 4 -->
+                <tr>
+                    <td>DALL-E</td>
+                    <td>OpenAI</td>
+                    <td>إنشاء الصور</td>
+                    <td>لا</td>
+                    <td><input type="checkbox" class="details-toggle" onclick="toggleDetails(4)"></td>
+                </tr>
+                <tr id="details-4" style="display: none;">
+                    <td colspan="5">
+                        <div class="app-details">
+                            <div class="detail-item">
+                                <strong>عنوان الموقع الالكتروني:</strong>
+                                <a href=https://labs.openai.com target="_blank">labs.openai.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>شرح مختصر:</strong>
+                                <p>DALL-E هو نموذج ذكاء اصطناعي قادر على إنشاء صور فريدة وواقعية من الأوصاف النصية،
+                                    ويمكنه دمج مفاهيم غير مرتبطة ببعضها البعض.</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Logo</strong><br>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSX-jrbMUMwrMaY27MVkBkJxtkD4UI-mioYQ&s"
+                                    alt="DALL-E" width="120" height="120"> >
+                            </div>
+                            <div class="detail-item">
+                                <strong>ملف فيديو:</strong><br>
+                                <iframe src="https://www.youtube.com/embed/kJirMpbvBrM" width="300" height="250">
+                                    المتصفح لا يدعم تشغيل ملفات الفيديو
+                                </iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- تطبيق 5 -->
+                <tr>
+                    <td>Google Assistant</td>
+                    <td>Google</td>
+                    <td>المساعدة الشخصية</td>
+                    <td>نعم</td>
+                    <td><input type="checkbox" class="details-toggle" onclick="toggleDetails(5)"></td>
+                </tr>
+                <tr id="details-5" style="display: none;">
+                    <td colspan="5">
+                        <div class="app-details">
+                            <div class="detail-item">
+                                <strong>عنوان الموقع الالكتروني:</strong>
+                                <a href=https://assistant.google.com target="_blank">assistant.google.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>شرح مختصر:</strong>
+                                <p>مساعد جوجل هو مساعد افتراضي يعمل بالذكاء الاصطناعي يمكنه المساعدة في المهام اليومية
+                                    والإجابة على الأسئلة والتحكم في الأجهزة الذكية.</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Logo</strong><br>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCCjDc45TGiuf-deeu9vizoZuR2BKunKusA&s"
+                                    alt="Google Assistant" width="120" height="120">
+                            </div>
+                            <div class="detail-item">
+                                <strong>ملف فيديو:</strong><br>
+                                <iframe src="https://www.youtube.com/embed/FPfQMVf4vwQ" width="300" height="250">
+                                    المتصفح لا يدعم تشغيل ملفات الفيديو
+                                </iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

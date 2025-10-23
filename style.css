@@ -1,0 +1,21 @@
+body {
+  background: #ffffff;
+  color: #111;
+  font-size: 16px;
+}
+
+nav { background: #006; padding: 8px; }
+nav a { color: #fff; margin: 0 8px; text-decoration: none; font-size: 16px; }
+
+.container, main { padding: 16px; margin: 16px auto; max-width: 1000px; }
+
+h1 { font-size: 28px; color: #003366; }
+h2 { font-size: 22px; color: #003366; }
+
+table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+thead th { background: #e6f0ff; }
+
+form label { display: block; margin: 8px 0; font-size: 16px; }
+input[type="text"], input[type="url"], textarea, select { padding: 6px; border: 1px solid #aaa; width: 100%; max-width: 600px; }
+button { padding: 8px 12px; background: #006699; color: #fff; border: none; border-radius: 3px; }
